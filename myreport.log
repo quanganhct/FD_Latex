@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 MAY 2015 18:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 MAY 2015 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,7 +777,7 @@ ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 11/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/
 texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (7 pages, 1176488 bytes).
+Output written on myreport.pdf (7 pages, 1177060 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
