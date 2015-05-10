@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 MAY 2015 09:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 MAY 2015 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,21 +741,17 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ) [1
 
 ]
-(./project/p1.tex (./project/p1_context.tex
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
-) (./project/p1_specification.tex)
-(./project/p1_implementation.tex)) [2] (./myreport.aux)
+(./project/p1.tex) (./project/p2.tex) [2] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6738 strings out of 493633
- 99067 string characters out of 3143378
- 173013 words of memory out of 3000000
- 9895 multiletter control sequences out of 15000+200000
- 9888 words of font info for 28 fonts, out of 3000000 for 9000
+ 6730 strings out of 493633
+ 98875 string characters out of 3143378
+ 174013 words of memory out of 3000000
+ 9894 multiletter control sequences out of 15000+200000
+ 8255 words of font info for 26 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  44i,11n,43p,503b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -764,7 +760,7 @@ xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
 ive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
 e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (4 pages, 1133928 bytes).
+Output written on myreport.pdf (4 pages, 1139377 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
