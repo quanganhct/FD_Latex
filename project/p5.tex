@@ -34,5 +34,33 @@ $$
 \paragraph{}
 After that I applied this hypothese, and it was done.
 $$
-\forall i \cdot i \in last\_index+1..size \land i+1 \in last\_index+1..size \Rightarrow a(i) \leq a(i+1)
+\forall i \cdot i \in last\_index+1..size \land i+1 \in last\_index+1..size \Rightarrow a(i) \leq a(i+1
 $$
+
+\subsection{LOOP\_SWAP/inv12/INV}
+Demonstrate:
+$$
+\forall i \cdot i \in 1..size \Rightarrow (\exists j \cdot j \in 1..size \Rightarrow array(i)=a'(j))
+$$
+
+Applying case distinction : 
+$$
+i=indice \lor i=indice+1 \lor (i \neq indice \land i \neq indice+1)
+$$
+\paragraph{}
+After that, each case was proved automatically.
+
+\subsection{LOOP\_SWAP/act4/FIS}
+Prove that :
+\begin{align*}
+&\exists a' \cdot a' \in 1..size \to array[1..size] \\ 
+&\land (\forall i \cdot i \in 1..size \land i \neq indice \land i \neq indice+1 \Rightarrow a'(i)=a(i)) \\ 
+&\land a'(indice) = a(indice+1) \land a'(indice+1) = a(indice)
+\end{align*}
+
+Here I chose that $ a' = \qeq a \stackrel{<}{+} \{indice \mapsto a(indice+1), indice+1 \mapsto a(indice) \} $
+
+
+
+
+
