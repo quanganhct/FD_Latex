@@ -5,3 +5,20 @@
 \item Implementation: SortArrayDistinctValueAscendingMachineImplementation
 \end{itemize}
 
+\paragraph{}
+In this machine, the POs that need to be proved interactively is many, and the proving process is more complicated than before.
+
+\subsection{LOOP\_SWAP/inv6/INV}
+I added some hypotheses:
+\begin{itemize}
+\item $a'(last\_index+1) = a(last\_index+1)$
+\item $last\_index +1 > indice+1$
+\item $i=indice \lor i=indice+1 \lor (i \neq indice \land i \neq indice+1)$
+\end{itemize} 
+
+\subsection{LOOP\_SWAP/inv7/INV}
+Hypothese added:\\
+$i=indice \lor i=indice+1 \lor i < indice$\\
+After that, I proved by case. First case, $i < indice$, add hypothese : $a'(i) = a(i)$. For two last cases, $i = indice \lor i=indice+1$, it was proved automatic.
+
+\subsection{LOOP\_SWAP/inv10/INV}
