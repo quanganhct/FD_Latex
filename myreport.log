@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 MAY 2015 12:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  10 MAY 2015 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -751,15 +751,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [3]) [4]
-(./myreport.aux)
+) [3])
+(./project/p5.tex) [4] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6777 strings out of 493633
- 99555 string characters out of 3143378
+ 6780 strings out of 493633
+ 99587 string characters out of 3143378
  176013 words of memory out of 3000000
  9916 multiletter control sequences out of 15000+200000
  12345 words of font info for 42 fonts, out of 3000000 for 9000
@@ -773,7 +773,7 @@ ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
 11/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 1/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (6 pages, 1162112 bytes).
+Output written on myreport.pdf (6 pages, 1162493 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
