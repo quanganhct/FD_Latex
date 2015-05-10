@@ -10,6 +10,16 @@
 \end{itemize}
 
 \paragraph{}
+\textbf{ValueIncludedMachineImplementation} is a machine that check the values of the two arrays whether they satisfy :
+$$
+\forall{i}\cdot i \in dom(array1) \Rightarrow (\exists j \cdot j \in dom(array2) \Rightarrow array1(i) = array2(j))
+$$
+
+The complexity of this problem is:
+$$
+O(n_{1}, n_{2}) = n_{1}. n_{2} \quad  n_{1}=card(dom(array1)) \land n_{2}=card(dom(array2))
+$$
+\paragraph{}
 \textbf{ValueIncludedMachineImplementation2} is a special case of \textbf{ValueIncludedMachineImplementation}, where the two given arrays are sorted in ascending order.
 
 \paragraph{}
