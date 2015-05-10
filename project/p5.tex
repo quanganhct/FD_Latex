@@ -22,3 +22,17 @@ $i=indice \lor i=indice+1 \lor i < indice$\\
 After that, I proved by case. First case, $i < indice$, add hypothese : $a'(i) = a(i)$. For two last cases, $i = indice \lor i=indice+1$, it was proved automatic.
 
 \subsection{LOOP\_SWAP/inv10/INV}
+Demonstrate:
+$$
+\forall i \cdot i \in last\_index+1..size \land i+1 \in last\_index+1..size \Rightarrow a'(i) \leq a'(i+1)
+$$
+\paragraph{}
+I applied this hypothese for $i$ and $i+1$
+$$
+\forall i \cdot i \in 1..size \land \neg i=indice \land \neg i=indice+1\Rightarrow a'(i)=a(i)
+$$
+\paragraph{}
+After that I applied this hypothese, and it was done.
+$$
+\forall i \cdot i \in last\_index+1..size \land i+1 \in last\_index+1..size \Rightarrow a(i) \leq a(i+1)
+$$
