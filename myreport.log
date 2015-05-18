@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  18 MAY 2015 11:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  18 MAY 2015 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,16 +525,142 @@ LaTeX Info: Redefining \] on input line 2667.
 \l_MT_shortvdotswithinadjustabove_dim=\dimen152
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen153
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/objectz/oz.sty
+Package: oz 1999/05/24 2.46 Object Z macros
+
+`Object-Z Macros' 2.46 <1999/05/24>
+\c@mv@oz=\count128
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `oz'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `oz'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/bx/n on input line 71.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `oz'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 71.
+\symitalics=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 71.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 71.
+\symlasy=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 71.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 71.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 71.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `oz'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 71.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 71.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 71.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 71.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `oz'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 71.
+\strutbox@=\box32
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring math symbol \square on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 362.
+
+LaTeX Font Info:    Redeclaring math symbol \sqsubset on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \sqsupset on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 362
+.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 362.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 362.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 362.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 362.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 362.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 362.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \mho on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 362.
+\z@combox=\box33
+\z@wdcalc=\dimen155
+\z@stackmin=\count129
+\z@stackmax=\count130
+\z@stacktop=\count131
+\@gtempa=\dimen156
+\@gtempa=\dimen157
+\@gtempa=\dimen158
+\@gtempa=\dimen159
+\@gtempa=\dimen160
+\@gtempa=\dimen161
+\@gtempa=\dimen162
+\@gtempa=\dimen163
+\@gtempa=\dimen164
+\@gtempa=\dimen165
+\@gtempa=\dimen166
+\@gtempa=\dimen167
+\@gtempa=\dimen168
+\@gtempa=\dimen169
+\@gtempa=\dimen170
+\@gtempa=\dimen171
+\@gtempa=\dimen172
+\@gtempa=\dimen173
+\@gtempa=\dimen174
+\@gtempa=\dimen175
+\@gtempa=\dimen176
+\@gtempa=\dimen177
+\@gtempa=\dimen178
+\@gtempa=\dimen179
+\@gtempa=\dimen180
+\@gtempa=\dimen181
+\@gtempa=\dimen182
+\@gtempa=\dimen183
+\@gtempa=\dimen184
+\@gtempa=\dimen185
+\@gtempa=\dimen186
+\@gtempa=\dimen187
+\@gtempa=\dimen188
+\@gtempa=\dimen189
+\@gtempa=\dimen190
+\@gtempa=\dimen191
+\@gtempa=\dimen192
+\@gtempa=\dimen193
+\@gtempa=\dimen194
+\@gtempa=\dimen195
+\@gtempa=\dimen196
+\@gtempa=\dimen197
+\@gtempa=\dimen198
+\@gtempa=\dimen199
+\@gtempa=\dimen200
+\@gtempa=\dimen201
+\@gtempa=\dimen202
+\@gtempa=\dimen203
+\@gtempa=\dimen204
+\@gtempa=\dimen205
+\z@curline=\box34
+\z@curindent=\dimen206
+\z@curfield=\box35
+\zedindent=\dimen207
+\zedleftsep=\dimen208
+\zedtab=\dimen209
+\zedbar=\dimen210
+\zedlinethickness=\dimen211
+\zedcornerheight=\dimen212
+\z@cols=\count132
+\zedbaselineskip=\skip61
+\zstrutbox=\box36
+\interzedlinepenalty=\count133
+\preboxpenalty=\count134
+\forcepagepenalty=\count135
+\z@adskip=\skip62
+\z@bdskip=\skip63
+\z@adsskip=\skip64
+\z@bdsskip=\skip65
+\z@temp=\dimen213
+)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip61
-\f@ncyO@elh=\skip62
-\f@ncyO@erh=\skip63
-\f@ncyO@olh=\skip64
-\f@ncyO@orh=\skip65
-\f@ncyO@elf=\skip66
-\f@ncyO@erf=\skip67
-\f@ncyO@olf=\skip68
-\f@ncyO@orf=\skip69
+\fancy@headwidth=\skip66
+\f@ncyO@elh=\skip67
+\f@ncyO@erh=\skip68
+\f@ncyO@olh=\skip69
+\f@ncyO@orh=\skip70
+\f@ncyO@elf=\skip71
+\f@ncyO@erf=\skip72
+\f@ncyO@olf=\skip73
+\f@ncyO@orf=\skip74
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -550,59 +676,59 @@ Package tocbibind Note: Using section or other style headings.
 ) (/usr/local/texlive/2011/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2010/10/13 v2.3e parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 43.
-\cftparskip=\skip70
-\cftbeforetoctitleskip=\skip71
-\cftaftertoctitleskip=\skip72
-\cftbeforepartskip=\skip73
-\cftpartnumwidth=\skip74
-\cftpartindent=\skip75
-\cftbeforesecskip=\skip76
-\cftsecindent=\skip77
-\cftsecnumwidth=\skip78
-\cftbeforesubsecskip=\skip79
-\cftsubsecindent=\skip80
-\cftsubsecnumwidth=\skip81
-\cftbeforesubsubsecskip=\skip82
-\cftsubsubsecindent=\skip83
-\cftsubsubsecnumwidth=\skip84
-\cftbeforeparaskip=\skip85
-\cftparaindent=\skip86
-\cftparanumwidth=\skip87
-\cftbeforesubparaskip=\skip88
-\cftsubparaindent=\skip89
-\cftsubparanumwidth=\skip90
-\cftbeforeloftitleskip=\skip91
-\cftafterloftitleskip=\skip92
-\cftbeforefigskip=\skip93
-\cftfigindent=\skip94
-\cftfignumwidth=\skip95
-\cftbeforelottitleskip=\skip96
-\cftafterlottitleskip=\skip97
-\cftbeforetabskip=\skip98
-\cfttabindent=\skip99
-\cfttabnumwidth=\skip100
-\cftbeforesubfigskip=\skip101
-\cftsubfigindent=\skip102
-\cftsubfignumwidth=\skip103
-\cftbeforesubtabskip=\skip104
-\cftsubtabindent=\skip105
-\cftsubtabnumwidth=\skip106
+\cftparskip=\skip75
+\cftbeforetoctitleskip=\skip76
+\cftaftertoctitleskip=\skip77
+\cftbeforepartskip=\skip78
+\cftpartnumwidth=\skip79
+\cftpartindent=\skip80
+\cftbeforesecskip=\skip81
+\cftsecindent=\skip82
+\cftsecnumwidth=\skip83
+\cftbeforesubsecskip=\skip84
+\cftsubsecindent=\skip85
+\cftsubsecnumwidth=\skip86
+\cftbeforesubsubsecskip=\skip87
+\cftsubsubsecindent=\skip88
+\cftsubsubsecnumwidth=\skip89
+\cftbeforeparaskip=\skip90
+\cftparaindent=\skip91
+\cftparanumwidth=\skip92
+\cftbeforesubparaskip=\skip93
+\cftsubparaindent=\skip94
+\cftsubparanumwidth=\skip95
+\cftbeforeloftitleskip=\skip96
+\cftafterloftitleskip=\skip97
+\cftbeforefigskip=\skip98
+\cftfigindent=\skip99
+\cftfignumwidth=\skip100
+\cftbeforelottitleskip=\skip101
+\cftafterlottitleskip=\skip102
+\cftbeforetabskip=\skip103
+\cfttabindent=\skip104
+\cfttabnumwidth=\skip105
+\cftbeforesubfigskip=\skip106
+\cftsubfigindent=\skip107
+\cftsubfignumwidth=\skip108
+\cftbeforesubtabskip=\skip109
+\cftsubtabindent=\skip110
+\cftsubtabnumwidth=\skip111
 )
 (./myreport.aux)
 \openout1 = `myreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -640,16 +766,16 @@ LaTeX Font Info:    ... okay on input line 100.
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
-\scratchdimen=\dimen154
-\scratchbox=\box32
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\scratchcounter=\count136
+\scratchdimen=\dimen214
+\scratchbox=\box37
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count131
-\MPscratchDim=\dimen155
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen215
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
@@ -696,10 +822,10 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 100.
+LaTeX Info: Redefining \subref on input line 101.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count134
+\c@lstlisting=\count142
 
 (./project/cover.tex
 
@@ -751,6 +877,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 14.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [3])
 (./project/p5.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
@@ -761,48 +892,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
  []
 
 [6]
-Overfull \hbox (32.64432pt too wide) in paragraph at lines 134--134
+Overfull \hbox (36.1314pt too wide) in paragraph at lines 134--134
 [] 
  []
 
 
-Overfull \hbox (32.83888pt too wide) in paragraph at lines 141--141
+Overfull \hbox (36.32596pt too wide) in paragraph at lines 141--141
 [] 
  []
 
 
-Overfull \hbox (32.83888pt too wide) in paragraph at lines 160--160
+Overfull \hbox (36.32596pt too wide) in paragraph at lines 160--160
 [] 
  []
 
-[7]) (./project/p6.tex) [8] (./myreport.aux)
+) (./project/p6.tex [7]) [8] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6789 strings out of 493633
- 99680 string characters out of 3143378
- 182013 words of memory out of 3000000
- 9919 multiletter control sequences out of 15000+200000
- 15738 words of font info for 46 fonts, out of 3000000 for 9000
+ 7454 strings out of 493633
+ 105028 string characters out of 3143378
+ 188033 words of memory out of 3000000
+ 10571 multiletter control sequences out of 15000+200000
+ 17104 words of font info for 52 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 44i,12n,43p,503b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,43p,503b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
-live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
-011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/te
-xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on myreport.pdf (10 pages, 1199594 bytes).
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on myreport.pdf (10 pages, 1210545 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,3 +10,10 @@ We have 2 more condition to satisfy, since the array is totally random:
 \item $dom(new\_array) = dom(array) \land ran(new\_array) = ran(array)$
 \item $\forall y \cdot y \in ran(array) \Rightarrow card(\{u | u \in dom(array) \land u \mapsto y \in array\}) = card(\{x | x \in dom(new\_array) \land x \mapsto y \in new_array\})$
 \end{itemize}
+
+To prove the POs, I need to use the following theoreme: 
+\begin{itemize}
+\item $\forall g,n \cdot n \in \mathbb{N} \land g \in 1..n \to \mathbb{Z} \Rightarrow g=\{i \cdot i \in 1..n | i \mapsto g(i)\}$
+\item $\forall g,n \cdot n \in \mathbb{N} \land g \pfun 1..n \to \mathbb{Z} \Rightarrow g= \{i \cdot i \in 1..n | i \mapsto g(i)\}$
+\item $\forall A,B,C \cdot A \subseteq \mathbb{N} \land B \subseteq \mathbb{N} \land C \subseteq \mathbb{N} \land finite(A) \land finite(B) \land finite(C) \land A \cap B = \emptyset \land A \cap C = \emptyset \land B \cap C = \emptyset \Rightarrow card(A \cup B \cup C) = card(A) + card(B) + card(C)$
+\end{itemize}
