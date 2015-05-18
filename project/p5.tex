@@ -101,7 +101,11 @@ $
 last\_index < size \Rightarrow (\forall i \cdot i \in 1..last\_index \Rightarrow a(i) \leq a(last\_index+1))
 $
 
-
+\paragraph{}
+In case $i > last\_index$, apply hypothese :\\
+$
+\forall i \cdot i \in last\_index+1..size \land i \in last\_index+1..size \Rightarrow a(i) \leq a(i+1)
+$
 
 
 
