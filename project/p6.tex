@@ -22,4 +22,25 @@ To prove the POs, I need to use the following theoreme:
 \item $\forall f,g,h,k \cdot f \in \mathbb{Z} \pfun \mathbb{Z} \land g \in \mathbb{Z} \pfun \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f <+ \{h \mapsto f(k), k \mapsto f(h)\} \land finite(f) \land finite(g) \Rightarrow dom(g) = dom(f)$
 
 \item $\forall g,n,h,k \cdot n \in \mathbb{N} \land g \in 1..n \to \mathbb{Z} \land h \in dom(g) \land k \in dom(g) \Rightarrow \{h,k\} \dsub g = {i \cdot i \in 1..n \land i \neq h \land i \neq k | i \mapsto g(i)}$
+
+\item $\forall f,g,h,k,n \cdot n \in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f <+ \{h \mapsto f(k), k \mapsto f(h)\} \land finite(f) \land finite(g) \Rightarrow ran(g) = ran(f)$
+
+\item $\forall f,g,h,k,y,n \cdot n\in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f<+\{h \mapsto f(k), k \mapsto f(h) \} \land finite(f) \land finite(g) \land y \in ran(f) \Rightarrow card(\{u \cdot u \in dom(f) \land u \mapsto y \in f | u \}) =  card(\{x \cdot x \in dom(g) \land x \mapsto y \in g | x \})$
+
+\item $\forall f,g,h,k,n \cdot n \in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land finite(f) \land finite(g) \land (\forall i \cdot i \in 1..n \land i \neq h \land i \neq k \Rightarrow g(i)=f(i)) \land g(h)=f(k) \land g(k)=f(h) \Rightarrow g = f<+\{h \mapsto f(k), k \mapsto f(h)\}$
 \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
