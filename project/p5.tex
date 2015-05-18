@@ -123,10 +123,22 @@ Demonstrate :
 $$
 \forall i \cdot i \in dom(array) \Rightarrow (\exists j \cdot j \in dom(a) \Rightarrow array(i) = a(j))
 $$
-This condition is enough to ensure that no member in \textbf{array} is missing in \textbf{a}, because the number of occurence of each member is 1. 
+This condition is enough to ensure that no member in \textbf{array} is missing in \textbf{a}, because the number of occurence of each member is 1. In the next part, sorting a random array, we have to ensure that the number of occurrences of each member in \textbf{array} and \textbf{a} are the same 
 
+\subsection{liveness/THM}
+Apply these hypothese (most of them are logic transformation) :
+\begin{align*}
+&(in\_loop=TRUE \land indice<last\_index \land a(indice)>a(indice+1) \land last\_index>1) \lor \\
+&(in\_loop=TRUE \land indice<last\_index \land a(indice) \leq a(indice+1) \land last\_index>1)  \\
+&\Leftrightarrow in\_loop=TRUE \land indice<last\_index \land last\_index>1
+\end{align*}
 
-
+\begin{align*}
+&(in\_loop=TRUE \land indice<last\_index \land a(indice)>a(indice+1) \land last\_index>1) \lor \\
+&(in\_loop=TRUE \land indice<last\_index \land a(indice) \leq a(indice+1) \land last\_index>1) \lor \\
+&(in\_loop=TRUE \land indice=last\_index \land last\_index>1) \\
+&\Leftrightarrow in\_loop=TRUE \land last\_index>1 \land indice \leq last\_index
+\end{align*}
 
 
 
