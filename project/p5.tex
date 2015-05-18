@@ -108,11 +108,22 @@ $
 $
 
 \subsubsection{Second case:}
-We have: $last\_index = 1$
+We have: $last\_index = 1$ \\
+\paragraph{}
+Apply hypothese : \\
+$
+\forall i \cdot i \in last\_index+1..size \land i+1 \in last\_index+1..size \Rightarrow a(i) \leq a(i+1)
+$
 
+\paragraph{}
+Then we do case distinction for i : $i=1 \lor i>1$
 
-
-
+\subsection{RETURN/grd3/GRD}
+Demonstrate : 
+$$
+\forall i \cdot i \in dom(array) \Rightarrow (\exists j \cdot j \in dom(a) \Rightarrow array(i) = a(j))
+$$
+This condition is enough to ensure that no member in \textbf{array} is missing in \textbf{a}, because the number of occurence of each member is 1. 
 
 
 
