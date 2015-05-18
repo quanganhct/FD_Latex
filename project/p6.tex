@@ -63,8 +63,19 @@ Now the main point is, to prove all the added theorem.\textbf{thm1}, \textbf{thm
 \subsection{thm8/THM}
 This theorem is proved by using the original formular of $card(A \cup B \cup C)$, and the fact that intersection between A, B or C is empty.
 
+\subsection{thm6/THM}
+This theorem is proved by adding : \\
+$\{h, k\} \dsub g = \{j \cdot j \in dom(g) \setminus \{h,k \} | j \mapsto g(j)  \} $
 
-
+\subsection{thm2/THM}
+This theorem was proved by re-define the overriding operartion, and then apply \textbf{thm6}, and then apply the classic process : \\
+$A = B \Leftrightarrow A \subseteq B \land B \subseteq A $ \\
+After re-define the overriding operation, we get the new PO : \\
+$ran((\{h,k\} \dsub f \cup \{h \mapsto f(k), k \mapsto f(h) \})) = ran(f) $\\
+This proposition $ran((\{h,k\} \dsub f \cup \{h \mapsto f(k), k \mapsto f(h) \})) \subseteq ran(f) $ is proved automatically. We need to prove : \\
+$ran(f) \subseteq ran((\{h,k\} \dsub f \cup \{h \mapsto f(k), k \mapsto f(h) \}))$ \\
+This is proved by point out : $\forall x0 \mapsto x \in f$, we prove that $x \in ran((\{h,k\} \dsub f \cup \{h \mapsto f(k), k \mapsto f(h) \}))$ \\
+By using case distinction : $x0=h \lor x0=k \lor (x0 \neq h \land x0 \neq k)$, we can prove this easily.
 
 
 
