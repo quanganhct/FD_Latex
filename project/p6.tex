@@ -1,1 +1,12 @@
 \section{Sort a radom array}
+
+\begin{itemize}
+\item Specification: SortArrayAscendingMachine
+\item Implementation: SortArrayAscendingMachineImplementation
+\end{itemize}
+
+We have 2 more condition to satisfy, since the array is totally random: 
+\begin{itemize}
+\item $dom(new\_array) = dom(array) \land ran(new\_array) = ran(array)$
+\item $\forall y \cdot y \in ran(array) \Rightarrow card(\{u | u \in dom(array) \land u \mapsto y \in array\}) = card(\{x | x \in dom(new\_array) \land x \mapsto y \in new_array\})$
+\end{itemize}
