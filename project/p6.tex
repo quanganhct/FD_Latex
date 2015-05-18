@@ -18,23 +18,23 @@ That make the appearance of the POs below, which I had to prove interactively :
 \item LOOP\_SWAP/inv13/INV
 \end{itemize}
 
-To prove the POs, I need to use the following theoreme: 
+To prove the POs, I need to use the following theorem: 
 \begin{itemize}
-\item $\forall g,n \cdot n \in \mathbb{N} \land g \in 1..n \to \mathbb{Z} \Rightarrow g=\{i \cdot i \in 1..n | i \mapsto g(i)\}$
-\item $\forall g,n \cdot n \in \mathbb{N} \land g \pfun 1..n \to \mathbb{Z} \Rightarrow g= \{i \cdot i \in 1..n | i \mapsto g(i)\}$
-\item $\forall A,B,C \cdot A \subseteq \mathbb{N} \land B \subseteq \mathbb{N} \land C \subseteq \mathbb{N} \land finite(A) \land finite(B) \land finite(C) \land A \cap B = \emptyset \land A \cap C = \emptyset \land B \cap C = \emptyset \Rightarrow card(A \cup B \cup C) = card(A) + card(B) + card(C)$
+\item thm5 : $\forall g,n \cdot n \in \mathbb{N} \land g \in 1..n \to \mathbb{Z} \Rightarrow g=\{i \cdot i \in 1..n | i \mapsto g(i)\}$
+\item thm7 : $\forall g,n \cdot n \in \mathbb{N} \land g \pfun 1..n \to \mathbb{Z} \Rightarrow g= \{i \cdot i \in 1..n | i \mapsto g(i)\}$
+\item thm8 : $\forall A,B,C \cdot A \subseteq \mathbb{N} \land B \subseteq \mathbb{N} \land C \subseteq \mathbb{N} \land finite(A) \land finite(B) \land finite(C) \land A \cap B = \emptyset \land A \cap C = \emptyset \land B \cap C = \emptyset \Rightarrow card(A \cup B \cup C) = card(A) + card(B) + card(C)$
 
-\item $\forall A,B \cdot A \subseteq \mathbb{N} \land B \subseteq \mathbb{N} \land A \subseteq B \land finite(A) \land finite(B)  \Rightarrow card(A) \leq card(B)$
+\item thm9 : $\forall A,B \cdot A \subseteq \mathbb{N} \land B \subseteq \mathbb{N} \land A \subseteq B \land finite(A) \land finite(B)  \Rightarrow card(A) \leq card(B)$
 
-\item $\forall f,g,h,k \cdot f \in \mathbb{Z} \pfun \mathbb{Z} \land g \in \mathbb{Z} \pfun \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f <+ \{h \mapsto f(k), k \mapsto f(h)\} \land finite(f) \land finite(g) \Rightarrow dom(g) = dom(f)$
+\item thm1 : $\forall f,g,h,k \cdot f \in \mathbb{Z} \pfun \mathbb{Z} \land g \in \mathbb{Z} \pfun \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f <+ \{h \mapsto f(k), k \mapsto f(h)\} \land finite(f) \land finite(g) \Rightarrow dom(g) = dom(f)$
 
-\item $\forall g,n,h,k \cdot n \in \mathbb{N} \land g \in 1..n \to \mathbb{Z} \land h \in dom(g) \land k \in dom(g) \Rightarrow \{h,k\} \dsub g = {i \cdot i \in 1..n \land i \neq h \land i \neq k | i \mapsto g(i)}$
+\item thm6 : $\forall g,n,h,k \cdot n \in \mathbb{N} \land g \in 1..n \to \mathbb{Z} \land h \in dom(g) \land k \in dom(g) \Rightarrow \{h,k\} \dsub g = {i \cdot i \in 1..n \land i \neq h \land i \neq k | i \mapsto g(i)}$
 
-\item $\forall f,g,h,k,n \cdot n \in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f <+ \{h \mapsto f(k), k \mapsto f(h)\} \land finite(f) \land finite(g) \Rightarrow ran(g) = ran(f)$
+\item thm2 : $\forall f,g,h,k,n \cdot n \in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f <+ \{h \mapsto f(k), k \mapsto f(h)\} \land finite(f) \land finite(g) \Rightarrow ran(g) = ran(f)$
 
-\item $\forall f,g,h,k,y,n \cdot n\in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f<+\{h \mapsto f(k), k \mapsto f(h) \} \land finite(f) \land finite(g) \land y \in ran(f) \Rightarrow card(\{u \cdot u \in dom(f) \land u \mapsto y \in f | u \}) =  card(\{x \cdot x \in dom(g) \land x \mapsto y \in g | x \})$
+\item thm3 : $\forall f,g,h,k,y,n \cdot n\in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land g = f<+\{h \mapsto f(k), k \mapsto f(h) \} \land finite(f) \land finite(g) \land y \in ran(f) \Rightarrow card(\{u \cdot u \in dom(f) \land u \mapsto y \in f | u \}) =  card(\{x \cdot x \in dom(g) \land x \mapsto y \in g | x \})$
 
-\item $\forall f,g,h,k,n \cdot n \in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land finite(f) \land finite(g) \land (\forall i \cdot i \in 1..n \land i \neq h \land i \neq k \Rightarrow g(i)=f(i)) \land g(h)=f(k) \land g(k)=f(h) \Rightarrow g = f<+\{h \mapsto f(k), k \mapsto f(h)\}$
+\item thm4 : $\forall f,g,h,k,n \cdot n \in \mathbb{N} \land f \in 1..n \to \mathbb{Z} \land g \in 1..n \to \mathbb{Z} \land h \in dom(f) \land k \in dom(f) \land h \neq k \land finite(f) \land finite(g) \land (\forall i \cdot i \in 1..n \land i \neq h \land i \neq k \Rightarrow g(i)=f(i)) \land g(h)=f(k) \land g(k)=f(h) \Rightarrow g = f<+\{h \mapsto f(k), k \mapsto f(h)\}$
 \end{itemize}
 
 \subsection{INITIALISATION/inv14/INV}
@@ -47,10 +47,21 @@ Demonstrate that : $finite(a')$ \\
 The process is the same as above, except that this time, I used the hypothese added to make the proving more easier : \\
 $\{i \cdot i \in 1..size | i \mapsto a'(i)\} = a'$
 
+\subsection{LOOP\_SWAP/inv13/INV}
+Demonstrate that : \\
+$\forall y \cdot i \in ran(array) \Rightarrow card(\{u \cdot u \in dom(array) \land u \mapsto y \in array | u\}) = card(\{x \cdot x \in dom(a') \land x \mapsto y \in a' | x\})$ \\
 
+\paragraph{}
+Use the hypothese : $card(\{u \cdot u \in dom(array) \land u \mapsto y \in array | u\}) = card(\{x \cdot x \in dom(a) \land x \mapsto y \in a | x\}) $. \\
+We then need to prove : \\
+$card(\{x \cdot x \in dom(a') \land x \mapsto y \in a' | x\}) = card(\{u \cdot u \in dom(a) \land u \mapsto y \in a | u\})$\\
+Use the \textbf{thm4} to precise that $a' = a <+ \{indice \mapsto a(indice+1), indice+1 \mapsto a(indice) \}$ \\
+Then use \textbf{thm3} to demonstrate $card(\{x \cdot x \in dom(a') \land x \mapsto y \in a' | x\}) = card(\{u \cdot u \in dom(a) \land u \mapsto y \in a | u\})$
 
+Now the main point is, to prove all the added theorem.\textbf{thm1}, \textbf{thm5}, \textbf{thm7}, \textbf{thm9} are pretty much auto proved.
 
-
+\subsection{thm8/THM}
+This theorem is proved by using the original formular of $card(A \cup B \cup C)$, and the fact that intersection between A, B or C is empty.
 
 
 

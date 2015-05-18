@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 MAY 2015 01:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 MAY 2015 01:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,7 +906,12 @@ Overfull \hbox (36.32596pt too wide) in paragraph at lines 160--160
 [] 
  []
 
-) (./project/p6.tex [7] [8]) [9] (./myreport.aux)
+) (./project/p6.tex [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+) [9] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -933,7 +938,7 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2011
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/te
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on myreport.pdf (11 pages, 1222961 bytes).
+Output written on myreport.pdf (11 pages, 1224705 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
