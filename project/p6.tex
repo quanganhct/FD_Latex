@@ -77,5 +77,41 @@ $ran(f) \subseteq ran((\{h,k\} \dsub f \cup \{h \mapsto f(k), k \mapsto f(h) \})
 This is proved by point out : $\forall x0 \mapsto x \in f$, we prove that $x \in ran((\{h,k\} \dsub f \cup \{h \mapsto f(k), k \mapsto f(h) \}))$ \\
 By using case distinction : $x0=h \lor x0=k \lor (x0 \neq h \land x0 \neq k)$, we can prove this easily.
 
+\subsection{thm4/THM}
+This theorem is proved by demonstrate 2 propositions :
+\begin{itemize}
+\item $g \subseteq f <+ \{h \mapsto f(k), k \mapsto f(h) \}$
+\item $f <+ \{h \mapsto f(k), k \mapsto f(h) \} \subseteq g$
+\end{itemize}
+
+Then apply \textbf{thm5} on each side, and then divide after $dom(f)$ and $\{h,k\}$.
+
+\subsection{thm3/THM}
+This theorem is the main point, that lead to the demonstration of \textbf{LOOP\_SWAP/inv13/INV}. 
+
+To do this, there're somethings we need to pay attention :\\
+$\forall y \in rang(f) \cdot  \{u \cdot u \in 1..n \land  u \mapsto y \in f | u\} = \{u \cdot u \in 1..n \land u \neq h \land u \neq k \land  u \mapsto y \in f | u\} \cup \{u \cdot u=h \land u \mapsto y \in f | u \} \cup \{u \cdot u=k \land u \mapsto y \in f | u \} $ \\
+We have 3 new subsets, and intersection between each pair, is null. Apply \textbf{thm8} for both $f$ and $g$ 's side. Then prove the followings : 
+\begin{itemize}
+\item $card( \{u \cdot u \in 1..n \land u \neq h \land u \neq k \land  u \mapsto y \in f | u\}) = card( \{u \cdot u \in 1..n \land u \neq h \land u \neq k \land  u \mapsto y \in g | u\})$
+
+\item $card(\{u \cdot u=h \land u \mapsto y \in f | u \}) = card(\{u \cdot u=k \land u \mapsto y \in g | u \})$
+
+\item $card(\{u \cdot u=k \land u \mapsto y \in f | u \}) = card(\{u \cdot u=h \land u \mapsto y \in g| u \})$
+\end{itemize}
+
+This can be done by using the definition of function $g$. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 

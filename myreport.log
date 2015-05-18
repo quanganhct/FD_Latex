@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 MAY 2015 01:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 MAY 2015 02:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -911,7 +911,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
-[9]) [10] (./myreport.aux)
+[9]
+Overfull \hbox (67.47125pt too wide) in paragraph at lines 90--91
+\OT1/cmr/m/n/12 This the-o-rem is the main point, that lead to the demon-stra-t
+ion of \OT1/cmr/bx/n/12 LOOP[]SWAP/inv13/INV\OT1/cmr/m/n/12 . 
+ []
+
+) [10] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -938,7 +944,7 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2011
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/te
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on myreport.pdf (12 pages, 1227380 bytes).
+Output written on myreport.pdf (12 pages, 1228716 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
