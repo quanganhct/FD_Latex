@@ -72,6 +72,47 @@ $$
 \paragraph{}
 I applied case distinction tactic, with $i = last\_index \lor i > last\_index$, and the PO was proved  automatically after that.
 
+\subsection{RETURN/grd2/GRD}
+Demonstrate:
+\begin{align*}
+&\forall i \cdot i \in dom(a) \land i+1 \in dom(a) \Rightarrow a(i) \leq a(i+1) \\
+&\text{with hypothese: } \\
+&(in\_loop=FALSE \land swap=FALSE \land indice=last\_index \land last\_index>1) \\
+&\lor last\_index=1
+\end{align*}
+
+Apply 'proof by case'-tatic in the hypothese.
+
+\subsubsection{First case: }
+We have:
+$$
+(in\_loop=FALSE \land swap=FALSE \land indice=last\_index \land last\_index>1)
+$$
+Then do case distinction for i : $i < last\_index \lor i = last\_index \lor i > last\_index$
+\paragraph{}
+In case $i < last\_index$, apply hypothese : \\
+$
+\forall i \cdot i \in 1..last\_index \land i+1 \in 1..last\_index \Rightarrow a(i) \leq a(i+1)
+$
+
+\paragraph{}
+In case $i = last\_index$, apply hypothese :\\
+$
+last\_index < size \Rightarrow (\forall i \cdot i \in 1..last\_index \Rightarrow a(i) \leq a(last\_index+1))
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
