@@ -140,7 +140,12 @@ Apply these hypothese (most of them are logic transformation) :
 &\Leftrightarrow in\_loop=TRUE \land last\_index>1 \land indice \leq last\_index
 \end{align*}
 
-
+\begin{align*}
+&(in\_loop=TRUE \land indice=last\_index \land last\_index>1) \lor \\
+&(in\_loop=FALSE \land swap=FALSE \land indice=last\_index \land last\_index>1) \lor \\
+&(in\_loop=FALSE \land indice=last\_index \land swap=TRUE \land last\_index>1) \\
+&\Leftrightarrow indice=last\_index \land last\_index>1
+\end{align*}
 
 
 
